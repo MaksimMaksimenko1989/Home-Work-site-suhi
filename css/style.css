@@ -1,4 +1,19 @@
-body{
-    background: black;
+body{   
+    font-family: Montserrat;
+    font-size: 16px;
+    background-color:#0f0f0f;
+    color:#e6e6e6;
+   
+    
+}
 
+header {
+    height: 90px;
+    
+}
+.header-nav{
+    display: inline-block;
+}
+ul {
+    list-style: none;
 }
