@@ -19,10 +19,11 @@ a{
     
 }
 
+
 .container{
     max-width: 1170px;
     height: 90px;
-    margin: 0,auto;
+    margin: 0 auto;
     
     
 }
@@ -35,14 +36,18 @@ nav ul li{
     padding: 0 18px;
 }
 .header-nav{
-    margin-left: 90px;
-    float: left;
+    
 
     }
-.header-social{float: left;
+.header-social{
+    width: 184px;
+    padding-top: 34px;
     
 }
-.header-contact{float: left;
+.header-contact{
     
+}
+.slider{height: 608px;
+
 }
 
