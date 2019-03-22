@@ -3,32 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: black;
     font-family: Montserrat, sans-serif;
     color: #ffffff;
 }
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .clear {
     clear: both;
 }
 .header-logo{ 
     margin: 15px 95px 16px 0;
     }
-
-
 .container{
     max-width: 1170px;
-    margin: 0 auto;
-    
-    
-}
+    margin: 0 auto;}
 nav ul li{
     float: left;
     display: inline; 
@@ -37,6 +29,15 @@ nav ul li{
     max-width: 118px;
     margin: 0;
     padding: 0 18px;
+}
+nav {
+    margin: 37px 45px 39px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+nav ul li:not(:last-child) {
+    padding-right: 43px;
+    height: 20px;
 }
 .header-nav{
     margin: 37px 45px 39px 0;
@@ -48,14 +49,36 @@ nav ul li{
 .header-social{
     width: 184px;
     margin: 35px 27px 36px 0;
-    
-    
 }
-.header-contact{
+.header-social ul li{
     float: left;
+    padding: 0 15px;
+}
+.header-social ul li:first-child {
+    padding-left: 0;
+}
+
+.header-social ul li:last-child {
+    padding-right: 0;
+}
+
+.header-social ul li:not(:last-child) {
+    border-right: 1px solid #3a3a3a;
+}
+
+.header-contact {
+    margin: 25px 0 26px;
+}
+
+.telephone {
     font-size: 22px;
-    
-    
+    font-weight: 700;
+}
+
+.header-time-work {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
 }
 .slider{height: 608px;
     background: url(../img/Rectangle\ 2\ copy.png) no-repeat center center;
