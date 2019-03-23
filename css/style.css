@@ -12,42 +12,37 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.float {
+    float: left;
+}
 .clear {
     clear: both;
 }
 .header-logo{ 
     margin: 15px 95px 16px 0;
     }
-.container{
-    max-width: 1170px;
-    margin: 0 auto;}
+    nav {
+        margin: 37px 45px 39px 0;
+        font-size: 15px;
+        font-weight: 500;
+    }
 nav ul li{
     float: left;
-    display: inline; 
-    line-height: 90px;
-    text-align: center;
-    max-width: 118px;
-    margin: 0;
-    padding: 0 18px;
-}
-nav {
-    margin: 37px 45px 39px 0;
-    font-size: 15px;
-    font-weight: 500;
-}
+    }
+
 nav ul li:not(:last-child) {
     padding-right: 43px;
     height: 20px;
 }
-.header-nav{
-    margin: 37px 45px 39px 0;
-    font-size: 15px;
-    font-weight: 500;
-
-
-    }
 .header-social{
-    width: 184px;
     margin: 35px 27px 36px 0;
 }
 .header-social ul li{
@@ -80,8 +75,42 @@ nav ul li:not(:last-child) {
     font-weight: 500;
     text-align: right;
 }
-.slider{height: 608px;
-    background: url(../img/Rectangle\ 2\ copy.png) no-repeat center center;
-
+.slider{
+    background: url(../img/Rectangle\ 2\ copy1.png);
+    background-position: center center;
+    height: 608px;
 }
+.circle{
+    width: 429px;
+    height: 429px;
+    margin: 0 auto;
+    position: relative;
+    top: 89px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 55px rgba(243, 33, 33, 0.64);
+    background-color: #f32121;
+    text-align: center;
+    }
+    .sushi{
+        position: relative;
+        height: 642px;
+    }
+    .sushi img{
+        position: absolute;
+    }
+    .main-conteiner-text {
+        font-size: 36px;
+        font-weight: 300;
+        text-transform: uppercase;
+        padding-top: 111px;
+    }
+    
+    .main-conteiner-text1 {
+        font-size: 46px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 32px;
+    }
+
+
 
