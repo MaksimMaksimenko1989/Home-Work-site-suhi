@@ -111,6 +111,15 @@ nav ul li:not(:last-child) {
         text-transform: uppercase;
         padding-top: 32px;
     }
-
+    .right-img-slider{
+        top: 61px;
+    right: -51px;
+    z-index: 1;
+    }
+    .left-img-slider{
+        z-index: 1;
+    top: 45px;
+    left: -255px;
+    }
 
 
