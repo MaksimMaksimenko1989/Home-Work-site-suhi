@@ -78,7 +78,7 @@ nav ul li:not(:last-child) {
 .slider{
     background: url(../img/Rectangle\ 2\ copy1.png);
     background-position: center center;
-    height: 608px;
+    
 }
 .circle{
     width: 429px;
@@ -90,13 +90,6 @@ nav ul li:not(:last-child) {
     box-shadow: 2px 4px 55px rgba(243, 33, 33, 0.64);
     background-color: #f32121;
     text-align: center;
-    }
-    .sushi{
-        position: relative;
-        height: 642px;
-    }
-    .sushi img{
-        position: absolute;
     }
     .main-conteiner-text {
         font-size: 36px;
@@ -111,15 +104,38 @@ nav ul li:not(:last-child) {
         text-transform: uppercase;
         padding-top: 32px;
     }
+    .sushi{
+        position: relative;
+        height: 642px;
+    }
+    .sushi img{
+        position: absolute;
+    }
+    
     .right-img-slider{
-        top: 61px;
-    right: -51px;
-    z-index: 1;
+        z-index: 1;
+        top: 90px;
+        right: -56px;
     }
     .left-img-slider{
         z-index: 1;
-    top: 45px;
-    left: -255px;
+        top: 45px;
+        left: -255px;
+    }
+    .layer1{
+        z-index: 1;
+        top: 81px;
+        left: 184px;
+}
+    .layer2{
+    z-index: 1;
+    top: 555px;
+    left: 525px;
+    }
+    .hubr{
+    top: 61px;
+    right: -51px;
+    z-index: 1;
     }
 
 
