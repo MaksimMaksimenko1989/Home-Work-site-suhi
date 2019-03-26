@@ -160,16 +160,41 @@ nav ul li:not(:last-child) {
         line-height: 30px;
     }
     
-    .menu {
+    .conteiner-one {
         width: 1170px;
     }
     
-    .menu section {
+    .conteiner-one ul li {
         float: left;
         width: 234px;
         height: 360px;
         border: 1px solid #323232;
         position: relative;
     }
+    .conteiner-one ul li:hover {
+        background-color: #0f0f0f}
+        
+        .conteiner-one ul li div {
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .conteiner-one ul li a {
+        display: block;
+        width: 197px;
+        height: 54px;
+        box-shadow: 2px 4px 24px rgba(243, 33, 33, 0.64);
+        border-radius: 27px;
+        background-color: #f32121;
+        margin: 0 17px 0 19px;
+        position: absolute;
+        bottom: -30px;
+        padding: 20px 0 19px 35px;
+        font-size: 15px;
+        font-weight: 500;
+        z-index: 1;
+    }
+    
 
 
