@@ -282,16 +282,16 @@ nav ul li:not(:last-child) {
         margin-bottom: 254px;
     }
     
-    .news-1 {
+    .conteiner-news1 {
         max-width: 570px;
         margin-right: 31px;
     }
     
-    .news-1 h1 {
+    .conteiner-news1 h1 {
         margin-top: 21px;
     }
     
-    .news article time {
+    .conteiner-news article time {
         display: inline-block;
         font-size: 13px;
         font-weight: 400;
@@ -299,11 +299,11 @@ nav ul li:not(:last-child) {
         margin-bottom: 15px;
     }
     
-    .news-1 p{
+    .conteiner-news1 p{
         margin-bottom: 16px;
     }
     
-    .news article a {
+    .conteiner-news article a {
         display: inline-block;
         font-size: 13px;
         font-weight: 400;
@@ -317,30 +317,77 @@ nav ul li:not(:last-child) {
         
     }
     
-    .fa-calendar-alt {
+    .calendar {
         padding-right: 6px;
     }
     
-    .news-2 {
+    .conteiner-news2 {
         margin-top: -12px;
     }
-    .news-2 img{
+    .conteiner-news2 img{
         margin-right: 31px;
     }
     
-    .news-2 a{
+    .conteiner-news2 a{
         margin-top: 8px;
         margin-bottom: 24px;
     }
     
-    .news-3 img{
+    .conteiner-news3 img{
     margin-right: 33px;
     }
-    .news-3 a{
+    .conteiner-news3 a{
         margin-top: 20px;
     }
-    .news-container{
+    .newsnews{
         min-width: 545px;
     }
+/* footer */
+footer {
+    background-color: #282828;
+}
 
+.footer-logo {
+    margin: 50px 261px 90px 0;
+}
+
+.footer-info {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 50px 297px 22px 0;
+    text-align: center;
+}
+
+.footer-social-icon {
+    margin: 0 39px 0 40px;
+}
+
+.footer-social-icon ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.footer-social-icon ul li:first-child {
+    padding-left: 0;
+}
+
+.footer-social-icon ul li:last-child {
+    padding-right: 0;
+}
+
+.footer-social-icon ul li:not(:last-child) {
+    border-right: 1px solid #3a3a3a;
+    height: 20px;
+}
+
+.footer-tel {
+    margin: 51px 0 104px 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+footer address{
+    font-style: normal;
+}
 
